@@ -1,0 +1,24 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.logo-header {
+    
+}
+
+.menu-header {
+    display: flex;
+    font-style: none;
+    margin-right: 20px;
+}
+
+.menu-header a {
+    display: flex;
+    padding: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
