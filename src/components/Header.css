@@ -3,22 +3,32 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    height: 12vh;
 }
 
 .logo-header {
-    
+    width: 15vw;
+    height: 10vh;
+    color: black;
 }
 
 .menu-header {
     display: flex;
+    text-decoration: none;
     font-style: none;
-    margin-right: 20px;
+    margin-right: 5rem;
 }
 
 .menu-header a {
     display: flex;
-    padding: 30px;
-    font-size: 25px;
+    padding: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: aliceblue;
+}
+
+.menu-header a:hover {
+    color: rgb(127, 208, 255);
+    text-decoration: underline;
+    transition: 0.5s ease;
 }

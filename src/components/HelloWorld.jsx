@@ -1,12 +1,13 @@
+import Banner from '../assets/banner-natureza.jpg'
 import "./HelloWorld.css"
 
-const books = ['O Hobbit', 'Harry Potter', 'Nárnia']
-
-function HelloWorld() {
+function HelloWorld({props}) {
     return (
         <div className="container">
-            <h1>Hello World, sou o Lavanere</h1>
-            <p>Ou o Michel, depende.</p>
+            <div className='container-frases'>
+                <h1>{props.saudacao}</h1>
+                <p>{props.frase}</p>
+            </div>
         </div>
     )
 }

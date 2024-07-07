@@ -1,4 +1,4 @@
-import Logo from "../assets/logo-react.png"
+import Logo from "../assets/logo-react3.webp"
 import './Header.css'
 
 function Header() {
